@@ -14,22 +14,22 @@ class Deepseek < Formula
   on_macos do
     on_arm do
       url "https://github.com/charsdavy/deepseek-cli/releases/download/v0.4.2/deepseek-v0.4.2-darwin-arm64.tar.gz"
-      sha256 "3b2c1d5b773f71654b705f638aaad8336c8b5461d99111874666306ea1d42f5f"
+      sha256 "1fe904d58a3d8de54c81ac1e310638591141bf3ab5871063271c478a319c3c61"
     end
     on_intel do
       url "https://github.com/charsdavy/deepseek-cli/releases/download/v0.4.2/deepseek-v0.4.2-darwin-x64.tar.gz"
-      sha256 "bf22178210598cc4d27b988b81c3a70ff6477b86e2d19ddce9bc695c24f20497"
+      sha256 "8e6dec7c2d0404d9f4e7c719431edf6be52f6597d038898f8a767c9d7cfc709d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/charsdavy/deepseek-cli/releases/download/v0.4.2/deepseek-v0.4.2-linux-arm64.tar.gz"
-      sha256 "7cc87c8f3ffff7c12398d64e54231f8fdd710727447f8bf734a82f53bbfbd8a9"
+      sha256 "b427f037d026a97721b9c991d9c18e578328bd841c7f35709880d9e905ad6c16"
     end
     on_intel do
       url "https://github.com/charsdavy/deepseek-cli/releases/download/v0.4.2/deepseek-v0.4.2-linux-x64.tar.gz"
-      sha256 "d388449abd0a13ce60b09b2e3a3af0cdaf155cd592562f5dccab33c5bc46d997"
+      sha256 "9ad62ff57935d493af11eaaab90f57f1f57b2eb96d895726e49e12300443e60e"
     end
   end
 
