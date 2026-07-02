@@ -1,7 +1,7 @@
 class Deepseek < Formula
   desc "Agentic command-line AI coding assistant powered by DeepSeek"
   homepage "https://github.com/charsdavy/deepseek-cli"
-  version "0.4.3"
+  version "0.4.4"
   license "MIT"
   head "https://github.com/charsdavy/deepseek-cli.git", branch: "main"
 
@@ -13,23 +13,23 @@ class Deepseek < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/charsdavy/deepseek-cli/releases/download/v0.4.3/deepseek-v0.4.3-darwin-arm64.tar.gz"
-      sha256 "597b5ef24a2038ab4464a2e1d9b0be6c68a97b61512591cb743b24e03cf9d161"
+      url "https://github.com/charsdavy/deepseek-cli/releases/download/v0.4.4/deepseek-v0.4.4-darwin-arm64.tar.gz"
+      sha256 "4fd1f051ac14ff8ebee1ce21f58df529a5b4777e413ea6aec86925bd2c289f2f"
     end
     on_intel do
-      url "https://github.com/charsdavy/deepseek-cli/releases/download/v0.4.3/deepseek-v0.4.3-darwin-x64.tar.gz"
-      sha256 "6f31628bdc20be36e4f80e7aafdeddc762fa550a968d69a4fc859d0f58606f54"
+      url "https://github.com/charsdavy/deepseek-cli/releases/download/v0.4.4/deepseek-v0.4.4-darwin-x64.tar.gz"
+      sha256 "57aaff30b607392266a2e3cf2a40d1b3d31dcfb59be1e9075fe00dfbad240a58"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/charsdavy/deepseek-cli/releases/download/v0.4.3/deepseek-v0.4.3-linux-arm64.tar.gz"
-      sha256 "d89a8a88aaad7adb79972a12644a778479d0e11cd96fa00dcef70d63292313df"
+      url "https://github.com/charsdavy/deepseek-cli/releases/download/v0.4.4/deepseek-v0.4.4-linux-arm64.tar.gz"
+      sha256 "9ea7478aa43b6708ed867b66de3101613628d1ce7ee171815de056ecef2f19ba"
     end
     on_intel do
-      url "https://github.com/charsdavy/deepseek-cli/releases/download/v0.4.3/deepseek-v0.4.3-linux-x64.tar.gz"
-      sha256 "33bac3b2b11b8c4c2f02623a2d189a60f38c1b5fa386cbacdc3a58c874ccfc7b"
+      url "https://github.com/charsdavy/deepseek-cli/releases/download/v0.4.4/deepseek-v0.4.4-linux-x64.tar.gz"
+      sha256 "8977f0354b51ba05a9eceb68ffca3dd4375029c316b3eb142163843709c138a3"
     end
   end
 
